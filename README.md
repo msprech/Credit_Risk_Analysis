@@ -69,3 +69,11 @@ Each model was used to produce an accuracy score, confusion matrix, and classifi
 * Imbalanced classification report
 
 ![report](https://github.com/msprech/Credit_Risk_Analysis/blob/48e5dedbe5500e93316dd13387fadd5714bbbbfe/Screen%20Shot%202022-01-01%20at%201.50.25%20PM.png)
+
+## Summary 
+
+The most consistently high-performing model came in the form of the Easy Ensemble classifier. The accuracy score was very high at .93, as well as were the recall rates for both high risks (.91) and low risks (.94). This is a good indicator that most of the positives were correctly identified, however, the precision rate of high risks were low at .07. This is concerning in a credit risk model because it is a low indicator of reliability in positive classification of high risk credit. 
+
+The F1 score was also relatively low for high-risk cases at .14, while the low-risk score was .97. 
+
+Even though this model outperformed the other five, it still doesn't reliably catch the high-risk cases. Seeing as this is one of the greatest concerns in credit risk and prediction, other models should continue to be evaluated for better precision scores in the high risk cases. 

@@ -1,4 +1,12 @@
-# Credit_Risk_Analysis
+# Credit Risk Analysis using Supervised Machine Learning Models
+
+## Overview 
+
+LendingClub, a peer-to-peer lending service, wants to compare different machine learning models to identify which best and most accurately represents the results of credit card risk within the dataset. 
+
+We used imbalanced-learn and scikit-learn modules to test a naive oversampling model using RandomOverSampler, an oversampling model using SMOTE, an undersampling model using ClusterCentroids, a combination sampling model using SMOTEENN, and two ensemble learners using BalancedRandomForestClassifier and EasyEnsembleClassifier. 
+
+Each model was used to produce an accuracy score, confusion matrix, and classification report in order to compare the efficacy of each model in predicting credit card risk. 
 
 
 ## Results 
